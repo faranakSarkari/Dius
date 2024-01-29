@@ -1,0 +1,11 @@
+.navFix{
+    position: fixed;
+    top: 88px;
+    z-index: 3;
+    background-color:var(--section-color);
+    width: 100%;
+}
+.navbar-toggler{
+    background-color: var(--first-color) !important;
+}
+

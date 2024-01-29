@@ -1,0 +1,36 @@
+.topProductImage{
+    object-fit: cover;
+}
+.topProduct{
+    position: relative;
+    overflow: hidden;
+}
+.triangle{
+    background-color:var(--second-color);
+    width: 500px !important;
+    height: 500px;
+    position: absolute;
+    right: -250px;
+    bottom: -250PX;
+    transform: rotateZ(45deg);
+}
+.imgtxt{
+    display: inline-block !important;
+    position: absolute;
+    bottom: 50PX;
+    text-align: right;
+    color: var(--section-color);
+}
+.imgtxt2{
+    display: inline-block !important;
+    position: absolute;
+    bottom: 10PX;
+    text-align: right;
+    color: var(--section-color);
+    font-size: small;
+}
+.logoImage{
+    position: absolute;
+    bottom: 90PX;
+    right: 50px;
+}

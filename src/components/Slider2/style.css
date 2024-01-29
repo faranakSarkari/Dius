@@ -1,0 +1,12 @@
+
+.mySwiper2 image{
+    left: 10px;
+    margin:  10px !important;
+}
+.mySwiper2 .swiper-slid{
+    background-color: black;
+}
+.mySwiper2 .swiper-slide img{
+    padding-left: 20px;
+    background-color: #212529;
+}

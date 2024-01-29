@@ -1,0 +1,28 @@
+.cardImage{
+    transition: 0.5s;
+}
+.cardBody{
+    transition: 0.5s;
+}
+.cardBody:hover{
+    box-shadow:  0 0.1rem 3rem var(--section-color);
+    transform: scale(1.05);
+}
+.cardBody:hover .cardImage{
+    transform: scale(1.05);
+}
+.cardTitle{
+    transition: 0.5s;
+}
+
+.cardBody:hover .cardTitle{
+    transform: scale(1.05);
+}
+.cardBody:hover .cardPrice{
+    color: var(--first-color);
+    transform: scale(1.05)
+}
+.cardBody:hover .cardRate{
+    color: var(--section-color);
+    transform: scale(1.05)
+}

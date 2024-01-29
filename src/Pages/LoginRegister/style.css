@@ -1,0 +1,36 @@
+.login_section{
+    height: 450px;
+    background-color:#f0f8ff;
+    overflow: hidden;
+    position: relative;
+}
+.circle{
+    width: 230px !important;
+    height: 230px;
+    border-radius: 50%;
+    background-color: var(--second-color);
+    margin-left: 100px;
+    margin-top: 100px;
+    background-image: url(https://imgurl.ir/uploads/u6978_dius_llc_logo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 0.5s;
+}
+.circle:hover{
+    transform: scale(0.5);
+    border:15px var(--first-color) solid ;
+}
+.movedCircle{
+    width:300px !important;
+    height: 300px;
+    border-radius: 50%;
+    background-color: var(--first-color);
+    position: absolute;
+    right: -70px;
+    bottom: -90px;
+    overflow: hidden;
+}
+.text{
+
+    font-size: var(--h4-font-size);
+}

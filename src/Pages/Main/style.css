@@ -1,0 +1,25 @@
+.sec3 img{
+    width: 200px;
+    height: 140px;
+}
+.hover{
+    transition: 1s;
+   
+}
+.hover :hover{
+    background: var(--white-color);
+    border-radius: var(--border-radius-medium);
+    box-shadow: 0 0.1rem 3rem var(--section-color);
+}
+
+.hover:hover .imgHover {
+ transform: scale(0.75);
+ transition: 1s;
+ box-shadow: none !important;
+}
+.imgHover{
+    transition: 1s;
+    margin: auto;
+    display: block;
+}
+

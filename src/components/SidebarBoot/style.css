@@ -1,0 +1,9 @@
+.sidebar{
+  
+}
+ul li>:first-child{
+    color:var(--section-color); 
+}
+.SidebarHead{
+  color: var(--first-color);
+}

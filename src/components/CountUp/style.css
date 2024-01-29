@@ -1,0 +1,20 @@
+
+.section_color{
+
+    padding:25px;
+}
+.small_section{
+    background-color: var(--section-light-color);
+    width: 80% !important;
+    margin: auto !important;
+    border-radius: var( --border-radius-medium);
+}
+.small_section h2{
+    color: var(--first-color);
+}
+ul li::marker {
+    color: var(--first-color); /* Change the color of the list marker */
+  }
+.counter{
+    font-size: var(  --h5-font-size);
+}

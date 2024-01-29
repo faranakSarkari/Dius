@@ -1,0 +1,7 @@
+.cardDetailPrice{
+    color: var(--section-color);
+}
+.removeDecor{
+    text-decoration: none;
+    color: white;
+}

@@ -1,0 +1,13 @@
+*{
+    margin: 0 !important;
+}
+.footer{
+    background-color: black;
+}
+.footerRight{
+    display: flex;
+    flex-direction: row;
+}
+.footerRightTxt2{
+   color: var(--first-color);
+}

@@ -1,0 +1,124 @@
+.dotBox{
+    background-color:var(--second-color);
+    height: 500px;
+}
+.dotM{
+    position: relative;
+    height:450px ;
+    width: auto;
+    background-image: url("https://imgurl.ir/uploads/e741713_81lrvFBmczL._AC_SL1500_.jpg");
+    background-size: 900px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.dot{
+
+    height: 90% !important;
+    width: 100% !important;
+    position: relative;
+}
+.iconButton{
+   position: absolute !important;
+   left: 650px;
+   top:350px;
+   color: black !important;
+   border: none;
+   background-color:transparent;
+   transition: 0.35s;
+   z-index: 200;
+}
+.iconButton:hover, .iconButton2:hover , .iconButton3:hover{
+    transform: scale(1.2);
+    color: var(--third-color) !important;
+}
+.cardBox{
+  width: 250px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  left:600px;
+  top:200px;
+  z-index: 200;
+}
+.srcClass{
+    width: 100px;
+    height: 100px;
+}
+.txt{
+    font-size: var(--p-font-size);
+}
+.close{
+    position: absolute;
+   left: 120px;
+    top:10px
+}
+.iconButton2{
+    position: absolute;
+    left: 400px;
+    top:100px;
+    color: black !important;
+    border: none;
+    background-color:transparent;
+    transition: 0.35s;
+}
+.cardBox2{
+    width: 250px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 450px;
+    top:100px;
+    z-index: 1000;
+  }
+  .iconButton3{
+    position: absolute;
+    left: 550px;
+    top:210px;
+    color: black !important;
+    border: none;
+    background-color:transparent;
+    transition: 0.35s;
+}
+.cardBox3{
+    width: 250px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 450px;
+    top:100px;
+  }
+  .movedCircle2{
+    width:350px !important;
+    height: 350px;
+    border-radius: 50%;
+    background-color: var(--first-color);
+    position: absolute;
+    right: -70px;
+    top: -90px;
+    overflow: hidden;
+}
+.rightDot{
+    position: relative;
+    overflow: hidden;
+}
+.txtDotRight{
+    position: absolute;
+    right: 20px;
+    top: 70px;
+    font-size: var( --h5-font-size);
+    color: var(--second-color);
+}
+.txtDotRight2{
+    position: absolute;
+    right: 20px;
+    top:100px;
+    font-size: var( --h6-font-size);
+    color: black;
+}
+.txtDotRight3{
+    position: absolute;
+    right: 55px;
+    top:135px;
+    font-size: var( --h6-font-size);
+    color:var(--section-color);
+}
