@@ -1,6 +1,7 @@
 {
   "name": "1",
   "version": "0.1.0",
+  "homepage": "https://faranaksarkari.github.io/pro",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.1",
@@ -15,6 +16,7 @@
     "aos": "^3.0.0-beta.6",
     "bootstrap": "^5.3.1",
     "bootstrap-icons": "^1.10.5",
+    "gh-pages": "^6.1.1",
     "react": "^18.2.0",
     "react-countup": "^6.4.2",
     "react-dom": "^18.2.0",
@@ -26,6 +28,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "concurrently \"json-server --watch db.json\" \"react-scripts start\"",
     "build": "react-scripts build",
     "test": "react-scripts test",
