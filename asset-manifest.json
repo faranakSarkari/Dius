@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/dius/static/css/main.e65ec1bf.css",
+    "main.js": "/dius/static/js/main.cdf3f8ea.js",
+    "static/js/787.a663bc8e.chunk.js": "/dius/static/js/787.a663bc8e.chunk.js",
+    "static/media/Metropolis-Bold.woff": "/dius/static/media/Metropolis-Bold.f212f74314942ab6daa8.woff",
+    "static/media/Metropolis-SemiBold.woff": "/dius/static/media/Metropolis-SemiBold.b4cbc76341df6165ab43.woff",
+    "static/media/Metropolis-Light.woff": "/dius/static/media/Metropolis-Light.4f35e616391de1314354.woff",
+    "static/media/Metropolis-Bold.woff2": "/dius/static/media/Metropolis-Bold.7c28cbaf4e318f06ad6c.woff2",
+    "static/media/Metropolis-SemiBold.woff2": "/dius/static/media/Metropolis-SemiBold.e32af1e07bcf34028c62.woff2",
+    "static/media/Metropolis-Light.woff2": "/dius/static/media/Metropolis-Light.3cfb0ca690beb73633ce.woff2",
+    "index.html": "/dius/index.html",
+    "main.e65ec1bf.css.map": "/dius/static/css/main.e65ec1bf.css.map",
+    "main.cdf3f8ea.js.map": "/dius/static/js/main.cdf3f8ea.js.map",
+    "787.a663bc8e.chunk.js.map": "/dius/static/js/787.a663bc8e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e65ec1bf.css",
+    "static/js/main.cdf3f8ea.js"
+  ]
+}
