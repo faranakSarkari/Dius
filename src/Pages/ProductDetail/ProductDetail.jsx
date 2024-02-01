@@ -19,7 +19,7 @@ export default function ProductDetail() {
   const {brand}=useContext(BrandContext)
 
   useEffect(() => {
-    fetch(`http://localhost:3001/edges?node.id=${productId}`)
+    fetch(`https://api.github.com/repos/faranakSarkari/dius/contents/db.json.id=${productId}`)
       .then((res) => res.json())
       .then((data) => setData(data));
   }, []);
